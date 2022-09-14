@@ -9,4 +9,9 @@ public class FibonacciTest {
     public void shouldReturnZeroWhenPositionIsZero() {
         assertEquals(0, Fibonacci.atNthPosition(0));
     }
+
+    @Test
+    public void shouldReturnOneWhenPositionIsOne() {
+        assertEquals(1, Fibonacci.atNthPosition(1));
+    }
 }
