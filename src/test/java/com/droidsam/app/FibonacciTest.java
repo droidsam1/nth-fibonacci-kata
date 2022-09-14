@@ -4,15 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest {
-    /**
-     * Rigorous Test :-)
-     */
+public class FibonacciTest {
     @Test
-    public void shouldAnswerWithTrue() {
+    public void shouldReturnZeroWhenPositionIsZero() {
         assertEquals(0, Fibonacci.atNthPosition(0));
     }
 }
