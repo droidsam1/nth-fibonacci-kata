@@ -5,6 +5,9 @@ public class Fibonacci {
         if (nthPosition == 0) {
             return 0;
         }
-        return 1;
+        if (nthPosition == 1) {
+            return 1;
+        }
+        return nthPosition - 1;
     }
 }
