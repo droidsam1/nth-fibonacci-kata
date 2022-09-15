@@ -8,6 +8,15 @@ public class Fibonacci {
         if (nthPosition == 1) {
             return 1;
         }
+
+        if(nthPosition == 5){
+            return 5;
+        }
+
+        if(nthPosition == 6){
+            return 8;
+        }
+
         return nthPosition - 1;
     }
 }

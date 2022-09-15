@@ -30,4 +30,14 @@ public class FibonacciTest {
         assertEquals(3, Fibonacci.atNthPosition(4));
     }
 
+    @Test
+    public void shouldReturnFiveWhenPositionIsFive() {
+        assertEquals(5, Fibonacci.atNthPosition(5));
+    }
+
+    @Test
+    public void shouldReturnEightWhenPositionIsSix() {
+        assertEquals(8, Fibonacci.atNthPosition(6));
+    }
+
 }
