@@ -50,4 +50,9 @@ public class FibonacciTest {
         assertEquals(21, Fibonacci.atNthPosition(8));
     }
 
+    @Test
+    public void shouldReturnThirtyFourWhenPositionIsNine() {
+        assertEquals(34, Fibonacci.atNthPosition(9));
+    }
+
 }
