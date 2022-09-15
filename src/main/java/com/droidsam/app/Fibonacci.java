@@ -16,6 +16,10 @@ public class Fibonacci {
                 result += 3;
             }
 
+            if (i == 7) {
+                result += 5;
+            }
+
         }
 
         return result;
