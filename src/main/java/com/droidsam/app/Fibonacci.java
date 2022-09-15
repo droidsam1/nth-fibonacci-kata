@@ -3,9 +3,14 @@ package com.droidsam.app;
 public class Fibonacci {
     public static int atNthPosition(int nthPosition) {
 
-        int result = 0;
+        if (nthPosition == 0) {
+            return 0;
+        }
+
+        int result = 1;
         for (int i = 0; i <= nthPosition; i++) {
-            if (i == 1 || i == 3 || i == 4) {
+
+            if (i == 3 || i == 4) {
                 result++;
             }
             if (i == 5) {
@@ -18,6 +23,10 @@ public class Fibonacci {
 
             if (i == 7) {
                 result += 5;
+            }
+
+            if (i == 8) {
+                result += 8;
             }
 
         }

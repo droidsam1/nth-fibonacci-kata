@@ -45,4 +45,9 @@ public class FibonacciTest {
         assertEquals(13, Fibonacci.atNthPosition(7));
     }
 
+    @Test
+    public void shouldReturnTwentyOneWhenPositionIsEight() {
+        assertEquals(21, Fibonacci.atNthPosition(8));
+    }
+
 }
