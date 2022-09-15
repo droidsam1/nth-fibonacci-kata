@@ -24,4 +24,10 @@ public class FibonacciTest {
     public void shouldReturnTwoWhenPositionIsThree() {
         assertEquals(2, Fibonacci.atNthPosition(3));
     }
+
+    @Test
+    public void shouldReturnThreeWhenPositionIsFour() {
+        assertEquals(3, Fibonacci.atNthPosition(4));
+    }
+
 }
