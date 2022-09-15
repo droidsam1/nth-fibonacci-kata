@@ -14,4 +14,9 @@ public class FibonacciTest {
     public void shouldReturnOneWhenPositionIsOne() {
         assertEquals(1, Fibonacci.atNthPosition(1));
     }
+
+    @Test
+    public void shouldReturnOneWhenPositionIsTwo() {
+        assertEquals(1, Fibonacci.atNthPosition(2));
+    }
 }
